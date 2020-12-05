@@ -7,7 +7,7 @@ class SearchFilter extends Component {
    state = {
      itemsToDisplay: [],
      itemsToUse: [],
-     cuisines: []
+     songs: []
    };
    render() {
      return (
@@ -17,43 +17,36 @@ class SearchFilter extends Component {
   <h1 id="h">Choose genre:</h1>  
              <select id="restfilter" onChange={this.optionSelected}>
                <option value="any">Choose Any</option>
-               {this.state.cuisines.map(cuisine => {
-                 return <option value={cuisine}>{cuisine}</option>;
+               {this.state.songs.map(genre => {
+                 return <option value={genre}>{genre}</option>;
                })}
-             </select>
-           </div>
-           <div>
-           <h1 id="h">Sort By:</h1>  
-             <select id="sortfilter" onChange={this.sortBy}>
-               <option value="ranking">Ranking</option>
-               <option value="asc">Rating: Low to High</option>
-               <option value="des">Rating: High to Low</option>
              </select>
            </div>
          </div>
          <div className="restcontainer">
            {this.state.itemsToDisplay.map(rest => {
-             let cuisines = rest["Cuisine Style"]
-               .substring(1, rest["Cuisine Style"].length - 2)
+             let songs = rest["Genres"]
+               .substring(1, rest["Genres"].length - 2)
                .split(",");
              return (
                <div className="rest">
                  <div className="restinfo">
                    <span className="restcity">{rest["City"]}</span>
                    <br />
+                   <span className="restname">{rest["Ranking"]}- </span>
                    <span className="restname">{rest["Name"]}</span>
-                   <div className="restcuisines">
-                     {cuisines.map(cuisine => {
-                       let cuisineToShow = cuisine.substring(
+                   <div className="restsongs">
+                   {songs.map(genre => {
+                       let genresToShow = genre.substring(
                          1,
-                         cuisine.length - 1
+                         genre.length - 1
                        );
-                       cuisineToShow = cuisineToShow.includes("'")
-                         ? cuisineToShow.substring(1, cuisineToShow.length)
-                         : cuisineToShow;
+                       genresToShow = genresToShow.includes("'")
+                         ? genresToShow.substring(1, genresToShow.length)
+                         : genresToShow;
                        return (
-                         <div pill className="restcuisine" variant="light">
-                           {cuisineToShow}
+                         <div pill className="restsong" variant="light">
+                           {genresToShow}
                          </div>
                        );
                      })}
@@ -84,7 +77,7 @@ class SearchFilter extends Component {
            item["Name"]
              .toLowerCase()
              .includes(event.target.value.toLowerCase()) ||
-           item["Cuisine Style"]
+           item["Genres"]
              .toLowerCase()
              .includes(event.target.value.toLowerCase()) ||
            item["City"].toLowerCase().includes(event.target.value.toLowerCase())
@@ -102,29 +95,8 @@ class SearchFilter extends Component {
      else {
        let itemsToDisplay = [];
        itemsToDisplay = this.state.itemsToUse.filter(item =>
-         item["Cuisine Style"].toLowerCase().includes(selected.toLowerCase())
+         item["Genres"].toLowerCase().includes(selected.toLowerCase())
        );
-       this.setState({ itemsToDisplay });
-     }
-   };
- 
-   sortBy = () => {
-     var e = document.getElementById("sortfilter");
-     var selected = e.options[e.selectedIndex].value;
- 
-     if (selected === "ranking")
-       this.setState({ itemsToDisplay: [...this.state.itemsToUse] });
-     else if (selected === "asc") {
-       let itemsToDisplay = [...this.state.itemsToDisplay];
-       itemsToDisplay.sort(function(a, b) {
-         return a["Rating"] - b["Rating"];
-       });
-       this.setState({ itemsToDisplay });
-     } else {
-       let itemsToDisplay = [...this.state.itemsToDisplay];
-       itemsToDisplay.sort(function(a, b) {
-         return b["Rating"] - a["Rating"];
-       });
        this.setState({ itemsToDisplay });
      }
    };
@@ -134,23 +106,23 @@ class SearchFilter extends Component {
    }
  
    reRenderList() {
-     var cuisines = [];
+     var songs = [];
      var itemsToDisplay = [];
      for (var i = 0; i < data.length; i++) {
        itemsToDisplay.push(data[i]);
-       data[i]["Cuisine Style"]
-         .substring(1, data[i]["Cuisine Style"].length - 2)
+       data[i]["Genres"]
+         .substring(1, data[i]["Genres"].length - 2)
          .split(",")
-         .forEach(cuisine => {
-           let c = cuisine.substring(1, cuisine.length - 1);
+         .forEach(genre => {
+           let c = genre.substring(1, genre.length - 1);
            c = c.includes("'") ? c.substring(1, c.length) : c;
-           if (cuisines.indexOf(c) < 0) {
-             cuisines.push(c);
+           if (songs.indexOf(c) < 0) {
+             songs.push(c);
            }
          });
      }
  
-     this.setState({ cuisines });
+     this.setState({ songs });
  
      this.setState({ itemsToDisplay }, () => {
        this.setState({ itemsToUse: [...this.state.itemsToDisplay] });
