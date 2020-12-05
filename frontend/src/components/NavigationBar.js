@@ -132,7 +132,7 @@ export const NavigationBar = () => (
   <Styles>  
   <div class="navbar-container">
     <Nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand">
+    <a class="navbar-brand" href="/">
         <img src="music.png" width="85" height="75" id="logo" class="d-inline-block align-top" alt="" />
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

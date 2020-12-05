@@ -7,10 +7,10 @@ export const Article = () => (
     <div class="media-container-row">
         <div class="title col-12 col-md-8">
             <h2 class="align-center pb-3 mbr-fonts-style display-2">
-                Article Title with Solid Background
+               Wonder
             </h2>
             <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">
-                Shape your future web project with sharp design and refine coded functions.
+            Shawn Mendes Still Leaves Too Much to Wonder About
             </h3>
 
         </div>
@@ -23,8 +23,9 @@ export const Article = () => (
 
                 <div class="media-content">
                     <div class="mbr-section-text">
+                    <br />
                         <p class="mbr-text mb-0 mbr-fonts-style display-7">
-                           <strong>Make your own website in a few clicks!</strong> Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and <em>mobile friendly websites</em> in a few clicks. Mobirise is one of the easiest website development tools available today.
+                        Shawn makes music for stadium-show attendees to belt back at him, but the songs he writes about himself are always better than the lover-boy pablum. “Monster,” a song about voyeuristic celebrity fandom and the glee with which we watch the people we’ve built up fall down, goes a long way toward explaining why he keeps his guard up, although the sentiment rings truer from guest star Justin Bieber, the hopeful, troubled T-800 to Mendes’s slicker, more versatile T-1000. (“I was nine when ‘One Time’ came out,” Shawn told Lowe. “He was Elvis to me.”) “Piece of You” does a great job of sidestepping the cleanliness of the artist’s persona, adding a much needed dose of negativity to break up all the cheer as Mendes sings about the insecurities that come with having a beautiful girlfriend other guys lust after. “Call My Friends” laments feeling like your buddies’ lives are passing you by; the pure ache for benign niceties like zoning out on the couch stoned with friends almost makes it a tearjerker in a pandemic. If you came to Wonder to find out what’s going on behind the brown doe eyes, underneath the too-perfect Superboy veneer, you won’t get much closer to the story. But when the band sounds this good, you wonder, does it matter?
                         </p>
                     </div>
                 </div>
@@ -33,17 +34,5 @@ export const Article = () => (
     </div>
 </div>
 
-<section class="mbr-section article content1 cid-qv5zjZaZyh" id="content1-15" data-rv-view="5943">
-
-
-
-<div class="container">
-    <div class="media-container-row">
-        <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
-            <strong> Make your own website in a few clicks!</strong> Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and <em>mobile friendly websites</em> in a few clicks. Mobirise is one of the easiest website development tools <a href="https://mobirise.com/">available</a> today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.
-        </div>
-    </div>
-</div>
-</section>
 </div>
 )

@@ -18,8 +18,8 @@ export const Home = () => (
       overflow="visible"
     />
     <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Top 10!!</h3>
+          <p>Check Out the top 10's of each genre!</p>
         </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -32,14 +32,14 @@ export const Home = () => (
       }}
       id="carousel-img"
       className="d-block w-100"
-      src="https://upload.wikimedia.org/wikipedia/en/6/68/Shawn_Mendes_-_Wonder.png" alt="Second slide"
+      src="https://upload.wikimedia.org/wikipedia/en/6/68/Shawn_Mendes_-_Wonder.png"
       alt="Second slide"
       overflow="visible"
       padding= "30"
     />
     <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Shaun Mendes's Wonder has just got released!!</h3>
+          <p>Check out our review of Wonder!</p>
         </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -52,14 +52,14 @@ export const Home = () => (
       }}
       id="carousel-img"
       className="d-block w-100"
-      src="https://i.ytimg.com/vi/pxCWiYFkvTg/maxresdefault.jpg"
+      src="https://i2.cinestaan.com/image-bank/1500-1500/177001-178000/177718.jpg"
       alt="Third slide"
       overflow="visible"
     />
     
   <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Achint Thakkar</h3>
+          <p>Who is the man behind the soundtrack of SCAM 1992? Check our explore section for more!!</p>
         </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
