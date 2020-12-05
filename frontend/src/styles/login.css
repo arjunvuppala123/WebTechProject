@@ -1,0 +1,10 @@
+body{
+    background: url('music_image_login.jpg');
+}
+
+.reg-link{
+    text-decoration: none;
+    color: rgb(20, 27, 116);
+    font-size: 20;
+    
+}

@@ -1,0 +1,348 @@
+[{
+        "Name": "Martine of Martine's Table",
+        "Cuisine Style": "[' Hip-Hop ']",
+        "Ranking": 1,
+        "Rating": 5,
+        "Number of Reviews": 136
+    },
+    {
+        "Name": "De Silveren Spiegel",
+        "Cuisine Style": "['Rock ']",
+        "Ranking": 2,
+        "Rating": 4.5,
+        "Number of Reviews": 812
+    },
+    {
+        "Name": "La Rive",
+        "Cuisine Style": "['Instrumental ']",
+        "Ranking": 3,
+        "Rating": 4.5,
+        "Number of Reviews": 567
+    },
+    {
+        "Name": "Vinkeles",
+        "Cuisine Style": "['Instrumental ']",
+        "Ranking": 4,
+        "Rating": 5,
+        "Number of Reviews": 564
+    },
+    {
+        "Name": "Librije's Zusje Amsterdam",
+        "Cuisine Style": "['Instrumental ']",
+        "Ranking": 5,
+        "Rating": 4.5,
+        "Number of Reviews": 316
+    },
+    {
+        "Name": "Ciel Bleu Restaurant",
+        "Cuisine Style": "['Instrumental ']",
+        "Ranking": 6,
+        "Rating": 4.5,
+        "Number of Reviews": 745
+    },
+    {
+        "Name": "Zaza's",
+        "Cuisine Style": "['Instrumental ']",
+        "Ranking": 7,
+        "Rating": 4.5,
+        "Number of Reviews": 1455
+    },
+    {
+        "Name": "Blue Pepper Restaurant And Candlelight Cruises",
+        "Cuisine Style": "['Instrumental ']",
+        "Ranking": 8,
+        "Rating": 4.5,
+        "Number of Reviews": 675
+    },
+    {
+        "Name": "Teppanyaki Restaurant Sazanka",
+        "Cuisine Style": "['Instrumental ']",
+        "Ranking": 9,
+        "Rating": 4.5,
+        "Number of Reviews": 923
+    },
+    {
+        "Name": "Rob Wigboldus Vishandel",
+        "Cuisine Style": "['Instrumental ']",
+        "Ranking": 10,
+        "Rating": 4.5,
+        "Number of Reviews": 450
+    }, {
+        "Name": "Teppanyaki Restaurant Sazanka",
+        "Cuisine Style": "['Instrumental ']",
+        "Ranking": 9,
+        "Rating": 4.5,
+        "Number of Reviews": 923
+    },
+    {
+        "Name": "Teppanyaki Restaurant Sazanka",
+        "Cuisine Style": "['Hip-Hop ']",
+        "Ranking": 9,
+        "Rating": 4.5,
+        "Number of Reviews": 923
+    },
+    {
+        "Name": "Teppanyaki Restaurant Sazanka",
+        "Cuisine Style": "['Hip-Hop ']",
+        "Ranking": 9,
+        "Rating": 4.5,
+        "Number of Reviews": 923
+    },
+    {
+        "Name": "Teppanyaki Restaurant Sazanka",
+        "Cuisine Style": "['Hip-Hop ']",
+        "Ranking": 9,
+        "Rating": 4.5,
+        "Number of Reviews": 923
+    },
+    {
+        "Name": "Teppanyaki Restaurant Sazanka",
+        "Cuisine Style": "['Hip-Hop ']",
+        "Ranking": 9,
+        "Rating": 4.5,
+        "Number of Reviews": 923
+    },
+    {
+        "Name": "Teppanyaki Restaurant Sazanka",
+        "Cuisine Style": "['Hip-Hop ']",
+        "Ranking": 9,
+        "Rating": 4.5,
+        "Number of Reviews": 923
+    },
+    {
+        "Name": "Teppanyaki Restaurant Sazanka",
+        "Cuisine Style": "['Hip-Hop ']",
+        "Ranking": 9,
+        "Rating": 4.5,
+        "Number of Reviews": 923
+    },
+    {
+        "Name": "Teppanyaki Restaurant Sazanka",
+        "Cuisine Style": "['Hip-Hop ']",
+        "Ranking": 9,
+        "Rating": 4.5,
+        "Number of Reviews": 923
+    },
+    {
+        "Name": "Martine of Martine's Table",
+        "Cuisine Style": "['Hip-Hop ']",
+        "Ranking": 1,
+        "Rating": 5,
+        "Number of Reviews": 136
+    },
+    {
+        "Name": "De Silveren Spiegel",
+        "Cuisine Style": "['Rock ']",
+        "Ranking": 2,
+        "Rating": 4.5,
+        "Number of Reviews": 812
+    },
+    {
+        "Name": "La Rive",
+        "Cuisine Style": "['Rock ']",
+        "Ranking": 3,
+        "Rating": 4.5,
+        "Number of Reviews": 567
+    },
+    {
+        "Name": "Vinkeles",
+        "Cuisine Style": "['Rock ']",
+        "Ranking": 4,
+        "Rating": 5,
+        "Number of Reviews": 564
+    },
+    {
+        "Name": "Librije's Zusje Amsterdam",
+        "Cuisine Style": "['Rock ']",
+        "Ranking": 5,
+        "Rating": 4.5,
+        "Number of Reviews": 316
+    },
+    {
+        "Name": "Ciel Bleu Restaurant",
+        "Cuisine Style": "['Rock ']",
+        "Ranking": 6,
+        "Rating": 4.5,
+        "Number of Reviews": 745
+    },
+    {
+        "Name": "Zaza's",
+        "Cuisine Style": "['Rock ']",
+        "Ranking": 7,
+        "Rating": 4.5,
+        "Number of Reviews": 1455
+    },
+    {
+        "Name": "Blue Pepper Restaurant And Candlelight Cruises",
+        "Cuisine Style": "['Rock ']",
+        "Ranking": 8,
+        "Rating": 4.5,
+        "Number of Reviews": 675
+    },
+    {
+        "Name": "Teppanyaki Restaurant Sazanka",
+        "Cuisine Style": "['Rock ']",
+        "Ranking": 9,
+        "Rating": 4.5,
+        "Number of Reviews": 923
+    },
+    {
+        "Name": "Rob Wigboldus Vishandel",
+        "Cuisine Style": "['Rock ']",
+        "Ranking": 10,
+        "Rating": 4.5,
+        "Number of Reviews": 450
+    }, {
+        "Name": "Teppanyaki Restaurant Sazanka",
+        "Cuisine Style": "['classical ']",
+        "Ranking": 9,
+        "Rating": 4.5,
+        "Number of Reviews": 923
+    },
+    {
+        "Name": "Teppanyaki Restaurant Sazanka",
+        "Cuisine Style": "['classical ']",
+        "Ranking": 9,
+        "Rating": 4.5,
+        "Number of Reviews": 923
+    },
+    {
+        "Name": "Teppanyaki Restaurant Sazanka",
+        "Cuisine Style": "['classical ']",
+        "Ranking": 9,
+        "Rating": 4.5,
+        "Number of Reviews": 923
+    },
+    {
+        "Name": "Teppanyaki Restaurant Sazanka",
+        "Cuisine Style": "['classical ']",
+        "Ranking": 9,
+        "Rating": 4.5,
+        "Number of Reviews": 923
+    },
+    {
+        "Name": "Teppanyaki Restaurant Sazanka",
+        "Cuisine Style": "['classical ']",
+        "Ranking": 9,
+        "Rating": 4.5,
+        "Number of Reviews": 923
+    },
+    {
+        "Name": "Teppanyaki Restaurant Sazanka",
+        "Cuisine Style": "['classical ']",
+        "Ranking": 9,
+        "Rating": 4.5,
+        "Number of Reviews": 923
+    },
+    {
+        "Name": "Teppanyaki Restaurant Sazanka",
+        "Cuisine Style": "['classical ']",
+        "Ranking": 9,
+        "Rating": 4.5,
+        "Number of Reviews": 923
+    },
+    {
+        "Name": "Teppanyaki Restaurant Sazanka",
+        "Cuisine Style": "['classical ']",
+        "Ranking": 9,
+        "Rating": 4.5,
+        "Number of Reviews": 923
+    },
+    {
+        "Name": "Teppanyaki Restaurant Sazanka",
+        "Cuisine Style": "['classical ']",
+        "Ranking": 9,
+        "Rating": 4.5,
+        "Number of Reviews": 923
+    },
+    {
+        "Name": "Teppanyaki Restaurant Sazanka",
+        "Cuisine Style": "['classical ']",
+        "Ranking": 9,
+        "Rating": 4.5,
+        "Number of Reviews": 923
+    }, {
+        "Name": "Blue Pepper Restaurant And Candlelight Cruises",
+        "Cuisine Style": "['Instrumental ']",
+        "Ranking": 8,
+        "Rating": 4.5,
+        "Number of Reviews": 675
+    },
+    {
+        "Name": "Blue Pepper Restaurant And Candlelight Cruises",
+        "Cuisine Style": "['Hip-Hop ']",
+        "Ranking": 8,
+        "Rating": 4.5,
+        "Number of Reviews": 675
+    },
+    {
+        "Name": "Blue Pepper Restaurant And Candlelight Cruises",
+        "Cuisine Style": "['Reggae ']",
+        "Ranking": 8,
+        "Rating": 4.5,
+        "Number of Reviews": 675
+    },
+    {
+        "Name": "Blue Pepper Restaurant And Candlelight Cruises",
+        "Cuisine Style": "['Reggae ']",
+        "Ranking": 8,
+        "Rating": 4.5,
+        "Number of Reviews": 675
+    },
+    {
+        "Name": "Blue Pepper Restaurant And Candlelight Cruises",
+        "Cuisine Style": "['Reggae ']",
+        "Ranking": 8,
+        "Rating": 4.5,
+        "Number of Reviews": 675
+    },
+    {
+        "Name": "Blue Pepper Restaurant And Candlelight Cruises",
+        "Cuisine Style": "['Reggae ']",
+        "Ranking": 8,
+        "Rating": 4.5,
+        "Number of Reviews": 675
+    },
+    {
+        "Name": "Blue Pepper Restaurant And Candlelight Cruises",
+        "Cuisine Style": "['Reggae ']",
+        "Ranking": 8,
+        "Rating": 4.5,
+        "Number of Reviews": 675
+    },
+    {
+        "Name": "Blue Pepper Restaurant And Candlelight Cruises",
+        "Cuisine Style": "['Reggae ']",
+        "Ranking": 8,
+        "Rating": 4.5,
+        "Number of Reviews": 675
+    },
+    {
+        "Name": "Blue Pepper Restaurant And Candlelight Cruises",
+        "Cuisine Style": "['Reggae ']",
+        "Ranking": 8,
+        "Rating": 4.5,
+        "Number of Reviews": 675
+    },
+    {
+        "Name": "Blue Pepper Restaurant And Candlelight Cruises",
+        "Cuisine Style": "['Reggae ']",
+        "Ranking": 8,
+        "Rating": 4.5,
+        "Number of Reviews": 675
+    },
+    {
+        "Name": "Blue Pepper Restaurant And Candlelight Cruises",
+        "Cuisine Style": "['Reggae ']",
+        "Ranking": 8,
+        "Rating": 4.5,
+        "Number of Reviews": 675
+    },
+    {
+        "Name": "Blue Pepper Restaurant And Candlelight Cruises",
+        "Cuisine Style": "['Reggae ']",
+        "Ranking": 8,
+        "Rating": 4.5,
+        "Number of Reviews": 675
+    }
+]
