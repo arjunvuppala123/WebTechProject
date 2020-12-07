@@ -1,6 +1,7 @@
 import React,{ Component}  from 'react';
 import "../App.css";
 import data from "./data.json"
+import { NavigationBar } from './NavigationBar';
 
 
 class SearchFilter extends Component {
@@ -12,9 +13,10 @@ class SearchFilter extends Component {
    render() {
      return (
        <div>
+       <NavigationBar />
          <div className="restfilter">
            <div>
-  <h1 id="h">Choose genre:</h1>  
+            <h1 id="h">Choose genre:</h1>  
              <select id="restfilter" onChange={this.optionSelected}>
                <option value="any">Choose Any</option>
                {this.state.songs.map(genre => {
@@ -31,7 +33,6 @@ class SearchFilter extends Component {
              return (
                <div className="rest">
                  <div className="restinfo">
-                   <span className="restcity">{rest["City"]}</span>
                    <br />
                    <span className="restname">{rest["Ranking"]}- </span>
                    <span className="restname">{rest["Name"]}</span>
