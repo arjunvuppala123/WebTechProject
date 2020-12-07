@@ -128,33 +128,37 @@ const Styles = styled.div`
   font-size: .875rem;
 }
 `
-export const NavigationBar = () => (
-  <Styles>  
-  <div class="navbar-container">
-    <Nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="/">
-        <img src="music.png" width="85" height="75" id="logo" class="d-inline-block align-top" alt="" />
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul id="options" class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="/billboard">Top 10's</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="/review">Latest Release</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="/explore">Explore</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="/register" tabindex="-1" aria-disabled="true">Register</a>
-          </li>
-        </ul>
-      </div>
-    </Nav>
-  </div>
-  </Styles>
-)
+export const NavigationBar = (props) => {
+   
+   let isregisterpage = props.register ? true : false;
+   
+   return (
+   <Styles>  
+   <div class="navbar-container">
+     <Nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+       <a class="navbar-brand" href="\">
+         <img src="music.png" width="85" height="75" id="logo" class="d-inline-block align-top" alt="" />
+       </a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarNav">
+         <ul id="options" class="navbar-nav ml-auto">
+           <li class="nav-item active">
+             <a class="nav-link" href="/billboard">Top 10's</a>
+           </li>
+           <li class="nav-item active">
+             <a class="nav-link" href="/review">Latest Release</a>
+           </li>
+           <li class="nav-item active">
+             <a class="nav-link" href="/explore">Explore</a>
+           </li>
+           <li class="nav-item active">
+   <a class="nav-link" href="/register" tabindex="-1" aria-disabled="true">{isregisterpage?"Register":"Logout"}</a>
+           </li>
+         </ul>
+       </div>
+     </Nav>
+   </div>
+   </Styles>
+ )}
