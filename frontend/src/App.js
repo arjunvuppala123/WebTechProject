@@ -3,7 +3,6 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 //import Nav from './components/nav-comp'
 //import Home from './components/home';
-import { NavigationBar } from './components/NavigationBar';
 import { Mainpage } from './components/mainpage';
 import { Review } from './components/review'
 import { Billboard } from './components/billboard';
@@ -15,7 +14,6 @@ function App() {
   return (
     <BrowserRouter>
     <div className="App">
-    <NavigationBar />
              <Switch>
                 <Route exact path="/" component={Mainpage} />
                 <Route exact path="/billboard" component={Billboard} />
