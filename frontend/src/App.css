@@ -123,9 +123,8 @@ body {
     border-radius: 5px;
     margin: 10px;
     width: 450px;
-    background-color: #130f40;
-    background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
-    ;
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #424950 74%);
     font-family: touse;
     transition-property: box-shadow;
     transition-duration: 0.25s;
