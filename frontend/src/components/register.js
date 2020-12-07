@@ -42,7 +42,7 @@ class Register extends Component {
        axios.post('api/register',data).then(
             res => {
 				console.log(res)
-				this.props.history.push('./');
+				this.props.history.push('./login');
             }
         ).catch(
             err => {
@@ -69,9 +69,8 @@ class Register extends Component {
 	render() {
 		return (
 			<div classbane ='auth-wrapper'>
-			<br />
-			<br />
-			<br />
+			<br /><br /><br /><br />
+      <br /><br /><br />
            <div id = "auth-inner">
 			<div className="register">
 				<form onSubmit={this.handleSubmit}>
