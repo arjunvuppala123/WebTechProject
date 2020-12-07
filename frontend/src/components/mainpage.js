@@ -1,8 +1,12 @@
 import React from 'react';
 import { Home } from './Carousel';
+import { NavigationBar } from './NavigationBar';
 import '../App.css';
 
 
 export const Mainpage = () => ( 
-<Home />
+   <div>
+        <NavigationBar />
+        <Home />
+   </div>
 )
