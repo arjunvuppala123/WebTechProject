@@ -81,16 +81,6 @@ class MyTaskList extends Component {
                     color="black"
                   />{item.task}</div>
                 </Card.Header>
-
-                <Card.Meta textAlign="right">
-                  <Icon
-                    link
-                    name="delete"
-                    color="red"
-                    onClick={() => this.deleteTask(index)}
-                  />
-                  <span style={{ paddingRight: 10 }}>Delete</span>
-                </Card.Meta>
               </Card.Content>
             </Card>
           );
@@ -113,12 +103,6 @@ class MyTaskList extends Component {
     this.getTasks();
   };
 
-  deleteTask = index => {
-    let tasklist = JSON.parse(localStorage.getItem("tasklist"));
-    tasklist.splice(index, 1);
-    localStorage.setItem("tasklist", JSON.stringify(tasklist));
-    this.getTasks();
-  };
 
   render() {
     return (
