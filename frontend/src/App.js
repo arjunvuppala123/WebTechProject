@@ -15,11 +15,11 @@ function App() {
     <BrowserRouter>
     <div className="App">
              <Switch>
-                <Route exact path="/" component={Mainpage} />
+                <Route exact path="/" component={Register} />
                 <Route exact path="/billboard" component={Billboard} />
                 <Route exact path="/review" component={Review} />
                 <Route exact path="/explore" component={Explore} />
-                <Route exact path = "/register" component ={Register}/>
+                <Route exact path = "/mainpage" component ={Mainpage}/>
                 <Route exact path = "/login" component ={Login}/>
              </Switch>
             

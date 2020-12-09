@@ -7,7 +7,7 @@ import '../index.css';
 export const SET_CURRENT_USER = "SET_CURRENT_USER";
 
 class Login extends Component {
-    
+
 
     handleSubmit = e => {
 
@@ -29,7 +29,7 @@ class Login extends Component {
 
                 if (res.data.message === "Login Successful") {
                     console.log("success");
-                    this.props.history.push('./');
+                    this.props.history.push('./mainpage');
                     alert('Login sucessful');
                 }
                 /*
@@ -50,90 +50,103 @@ class Login extends Component {
     }
 
     render() {
-		return (
-      <div classbane ='auth-wrapper'>
-      <br /><br /><br /><br />
-      <br /><br /><br /><br />
-           <div id = "auth-inner">
-      <div className="login">
-				<form onSubmit={this.handleSubmit}>
-					<h2>Login</h2>
-					<div className="email">
-						<input
-							type="text"
-							placeholder="Enter your email"
-							name="email"
-                           // value={this.state.email}
-                           value={this.email}
-                            //onChange={this.update}
-							onChange={e => this.email = e.target.value}
-						/>
-					</div>
+        return ( <
+            div classbane = 'auth-wrapper' >
+            <
+            br / > < br / > < br / > < br / >
+            <
+            br / > < br / > < br / > < br / >
+            <
+            div id = "auth-inner" >
+            <
+            div className = "login" >
+            <
+            form onSubmit = { this.handleSubmit } >
+            <
+            h2 > Login < /h2> <
+            div className = "email" >
+            <
+            input type = "text"
+            placeholder = "Enter your email"
+            name = "email"
+            // value={this.state.email}
+            value = { this.email }
+            //onChange={this.update}
+            onChange = { e => this.email = e.target.value }
+            /> <
+            /div>
 
-					<div className="password" id="password">
-						<input
-							type="password"
-							placeholder="Password"
-							name="password"
-                            //value={this.state.password}
-                            value={this.password}
-                            //onChange={this.update}
-							onChange={e => this.password = e.target.value}
-						/>
-					</div>
+            <
+            div className = "password"
+            id = "password" >
+            <
+            input type = "password"
+            placeholder = "Password"
+            name = "password"
+            //value={this.state.password}
+            value = { this.password }
+            //onChange={this.update}
+            onChange = { e => this.password = e.target.value }
+            /> <
+            /div>
 
-					<input type="submit" value="Login" />
-				</form>
+            <
+            input type = "submit"
+            value = "Login" / >
+            <
+            /form>
 
-				<Link class = "reg-link" to="/register">Create an account</Link>
-			</div></div></div>
-		);
-	}
+            <
+            Link class = "reg-link"
+            to = "/register" > Create an account < /Link> <
+            /div></div > < /div>
+        );
+    }
 }
 
 
 export const loginUser = (user, dispatch, seterror) => {
-  //login
-  fetch("http://localhost:3001/server/login", {
-    method: "POST",
-    body: JSON.stringify(user),
-    headers: {
-      Accept: "application/json",
-      "Content-Type": "application/json",
-    },
-  })
-    .then((res) => res.json())
-    .then((data) => {
-      if (data.ok === true) {
-        const token = data.token;
-        localStorage.setItem("jwt", token);
-        const decoded = jwt_decode(token);
+    //login
+    fetch("http://localhost:3001/server/login", {
+            method: "POST",
+            body: JSON.stringify(user),
+            headers: {
+                Accept: "application/json",
+                "Content-Type": "application/json",
+            },
+        })
+        .then((res) => res.json())
+        .then((data) => {
+            if (data.ok === true) {
+                const token = data.token;
+                localStorage.setItem("jwt", token);
+                const decoded = jwt_decode(token);
 
-        seterror("");
+                seterror("");
 
-        dispatch(setCurrentUser(decoded));
-      } else {
-        seterror(data.err.message);
-        logoutUser(dispatch);
-      }
-    })
-    .catch((err) => {
-      logoutUser(dispatch);
-    });
+                dispatch(setCurrentUser(decoded));
+            } else {
+                seterror(data.err.message);
+                logoutUser(dispatch);
+            }
+        })
+        .catch((err) => {
+            logoutUser(dispatch);
+        });
 };
 
 export const setCurrentUser = (decoded) => {
-  //if logged in,set user data
-  return {
-    type: SET_CURRENT_USER,
-    payload: decoded,
-  };
+    //if logged in,set user data
+    return {
+        type: SET_CURRENT_USER,
+        payload: decoded,
+    };
 };
 
 export const logoutUser = (dispatch) => {
-  //logout
-  localStorage.removeItem("jwt");
-  dispatch(setCurrentUser({}));
+    //logout
+    localStorage.removeItem("jwt");
+    dispatch(setCurrentUser({}));
 };
 
 

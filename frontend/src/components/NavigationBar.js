@@ -154,7 +154,7 @@ export const NavigationBar = (props) => {
              <a class="nav-link" href="/explore">Explore</a>
            </li>
            <li class="nav-item active">
-   <a class="nav-link" href="/register" tabindex="-1" aria-disabled="true">{isregisterpage?"Register":"Logout"}</a>
+   <a class="nav-link" href="/" tabindex="-1" aria-disabled="true">{isregisterpage?"Register":"Logout"}</a>
            </li>
          </ul>
        </div>
